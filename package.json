@@ -4,7 +4,8 @@
   "description": "from traditional way to modern javascript framework, cmdline",
   "main": "js/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress -p"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,9 @@
     "moment": "^2.22.2"
   },
   "devDependencies": {
-    "webpack": "^3.7.1"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^3.12.0"
   }
 }

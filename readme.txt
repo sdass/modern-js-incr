@@ -31,3 +31,8 @@ commit 4:
 ---------
 webpackconfig.js introduced. webpack command is slim.
 both commit 3, 4 need to recreate bundle.js every time if js file change.
+
+commit 5:
+-----------
+babel transpile has problem to rework. But "npm run build" run the webpack command
+as package.json has the build command within "scripts": { "build": "webpack --progress -p" }
